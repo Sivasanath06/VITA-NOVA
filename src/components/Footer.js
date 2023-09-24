@@ -6,8 +6,9 @@ const Footer = () => {
     <>
     <Box
         sx={{
-          width: 1280,
+          width: '100%',
           height: 300,
+          marginTop: '100px',
           backgroundColor: "#152e04",
           "&:hover": {
             backgroundColor: "primary.success",

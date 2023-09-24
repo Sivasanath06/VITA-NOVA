@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Board from './components/Board';
 import './components/style.css';
+import EWasteFacilityLocators from './EWasteFaciltyLocators';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     <Header/>
     <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/l' element={<Board/>}/>
+    <Route path='/leaderboard' element={<Board/>}/>
+    <Route path='/locate' element={<EWasteFacilityLocators/>}/>
 
     </Routes>
     <Footer/>

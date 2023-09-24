@@ -1,14 +1,13 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import image from "./Untitled123.jpg";
-import Image from "mui-image";
 
 function Home() {
   return (
     <>
       <Box
         sx={{
-          width: 1280,
+          width: '100%',
           height: 600,
           backgroundColor: "#355E3B",
           "&:hover": {
@@ -78,7 +77,7 @@ function Home() {
       </Box>
       <Box
         sx={{
-          width: 1280,
+          width: '100%',
           height: 600,
           backgroundColor: "#355E3B",
           "&:hover": {

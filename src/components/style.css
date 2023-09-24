@@ -96,18 +96,18 @@
 }
 .image_home2 {
   position: relative;
-  top: 20px;
+  top: 120px;
   width: 200px;
   height: 200px;
-  left: 190px;
+  right: 350px;
 
 }
 .image_home3 {
   position: relative;
-  top: 20px;
+  top: 120px;
   width: 200px;
   height: 200px;
-  left: 830px;
+  left: 350px;
 
 }
 .image_home4 {
@@ -116,6 +116,13 @@
   width: 75%;
   height: 80%;
   left: 150px;
+}
+.image_home5 {
+  position: relative;
+  top: 60px;
+  width: 35%;
+  height: 15%;
+  left: 390px;
 }
 
 * {

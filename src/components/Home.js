@@ -1,6 +1,8 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import image from "./Untitled123.jpg";
+import image1 from "./number.jpg"
+
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -129,16 +131,10 @@ function Home() {
           },
         }}
       >
-        <Typography
-          color="#00ff44"
-          width="550px"
-          variant="h2"
-          position="relative"
-          top="150px"
-          left="450px"
-        >
-          15000000kg E-waste
-        </Typography>
+        <img
+          src={image1}
+          className="image_home5"
+        />
         <img
           src="https://home.sophos.com/sites/default/files/2021-09/Recycling-computers.png"
           className="image_home2"
@@ -150,13 +146,13 @@ function Home() {
 
         <Typography
           color="#d4ffdf"
-          width="500px"
+          width="550px"
           variant="h6"
           position="relative"
-          bottom="50px"
-          left="470px"
+          top="70px"
+          left="410px"
         >
-          is appliances already identified as unwanted or as e-waste in our
+          kg appliances already identified as unwanted or as e-waste in our
           homes!
         </Typography>
         <Typography
@@ -164,7 +160,7 @@ function Home() {
           width="1250px"
           variant="h6"
           position="relative"
-          bottom="10px"
+          top="120px"
           left="10px"
         >
           This counter will quantify the weight of all the old electronics

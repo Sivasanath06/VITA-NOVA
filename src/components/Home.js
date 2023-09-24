@@ -1,13 +1,14 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import image from "./Untitled123.jpg";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
       <Box
         sx={{
-          width: '100%',
+          width: "100%",
           height: 600,
           backgroundColor: "#355E3B",
           "&:hover": {
@@ -77,7 +78,49 @@ function Home() {
       </Box>
       <Box
         sx={{
-          width: '100%',
+          width: "100%",
+          height: 300,
+          backgroundColor: "#0000",
+          position: "relative",
+          top: "15px",
+          "&:hover": {
+            backgroundColor: "primary.success",
+            // opacity: [0.9, 0.8, 0.7],
+          },
+        }}
+      >
+        <Typography
+          color="black"
+          width="1250px"
+          variant="h4"
+          position="relative"
+          bottom="110px"
+          left="10px"
+          textAlign="center"
+        >
+          TO FIND THE NEAREST E-WASTE DISPOSAL CENTERES <br/>
+                          CLICK BELOW 
+
+        </Typography>
+        <Button
+          size="large"
+          sx={{
+            fontWeight: "bold",
+            bottom: "90px",
+            left: "550px",
+            border: "5px solid #4ecc75",
+            borderRadius: "20px",
+            color: "black",
+          }}
+        >
+          <Link to="/locate">
+          Click Here.
+          </Link>
+        </Button>
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
           height: 600,
           backgroundColor: "#355E3B",
           "&:hover": {
@@ -91,38 +134,47 @@ function Home() {
           width="550px"
           variant="h2"
           position="relative"
-          top="250px"
+          top="150px"
           left="450px"
         >
-         15000000kg E-waste
+          15000000kg E-waste
         </Typography>
-        <img src="https://home.sophos.com/sites/default/files/2021-09/Recycling-computers.png" className="image_home2" />
-        <img src="https://info.mayeralloys.com/hubfs/e-waste-3.jpg" className="image_home3" />
-        
+        <img
+          src="https://home.sophos.com/sites/default/files/2021-09/Recycling-computers.png"
+          className="image_home2"
+        />
+        <img
+          src="https://info.mayeralloys.com/hubfs/e-waste-3.jpg"
+          className="image_home3"
+        />
+
         <Typography
           color="#d4ffdf"
           width="500px"
           variant="h6"
           position="relative"
-          top="60px"
+          bottom="50px"
           left="470px"
         >
-          is  appliances already identified as unwanted
-or as e-waste in our homes!
-
+          is appliances already identified as unwanted or as e-waste in our
+          homes!
         </Typography>
         <Typography
           color="#9afcb4"
           width="1250px"
           variant="h6"
           position="relative"
-          top="130px"
+          bottom="10px"
           left="10px"
         >
-          This counter will quantify the weight of all the old electronics people find in their homes. The more people find unwanted gadgets in their homes, the more the number above will climb!  This shows us the quantity of e-waste in kg that there is available in homes and is just waiting to be either recycled and /or reused.
-
+          This counter will quantify the weight of all the old electronics
+          people find in their homes. The more people find unwanted gadgets in
+          their homes, the more the number above will climb! This shows us the
+          quantity of e-waste in kg that there is available in homes and is just
+          waiting to be either recycled and /or reused.
         </Typography>
       </Box>
+     
     </>
   );
 }

@@ -96,7 +96,7 @@
 }
 .image_home2 {
   position: relative;
-  top: 120px;
+  top: 20px;
   width: 200px;
   height: 200px;
   left: 190px;
@@ -104,11 +104,18 @@
 }
 .image_home3 {
   position: relative;
-  top: 120px;
+  top: 20px;
   width: 200px;
   height: 200px;
   left: 830px;
 
+}
+.image_home4 {
+  position: relative;
+  top: 150px;
+  width: 75%;
+  height: 80%;
+  left: 150px;
 }
 
 * {
@@ -196,7 +203,10 @@
   color: #000;
   font-size: 1.06rem;
 }
-
+a{
+  text-decoration: none;
+  
+  }
 .ft-3 p {
   font-weight: 500;
   padding: 0.1rem 0;

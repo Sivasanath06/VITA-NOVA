@@ -19,7 +19,7 @@ function Header() {
           <CatchingPokemonRounded />
         </IconButton>
         <Typography variant="h6"  sx={{ flexGrow: 1 }}  color="common.black">
-          VITA NOVAx   
+          VITA NOVA   
         </Typography>
         <Stack direction="row" spacing={2}>
           <Button size="large" sx={{ fontWeight: 'bold' }}  color="success" >Leaderboard</Button>
